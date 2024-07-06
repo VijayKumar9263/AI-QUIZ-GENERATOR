@@ -1,0 +1,103 @@
+.exam-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Adjust alignment to left */
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border: 2px solid #ccc; /* Add a border to the whole question page */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exam-page #timer {
+    position: absolute;
+    top: 45px;
+    left: 70px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: rgb(32, 186, 32);
+  }
+  
+  .exam-page #submit {
+    position: absolute;
+    top: 45px;
+    right: 70px;
+    background-color: green; /* Green */
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  
+  .exam-page #submit:hover {
+    background-color: rgb(32, 186, 32);
+  }
+  
+  .question-container {
+    width: 100%;
+    text-align: center; /* Center align questions and options */
+  }
+  
+  .question-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #ccc; /* Add a border around each question */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .exam-page p.question {
+    font-weight: bold; /* Make questions bolder */
+    color: blue; /* Change question text color to blue */
+  }
+  
+  .exam-page .options {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+  }
+  
+  .exam-page .option {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s;
+    color: green; /* Change option text color to green */
+  }
+  
+  .exam-page .option:hover {
+    background-color: #ffffff4f;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Add border on hover */
+  }
+  
+  .exam-page .option.selected {
+    background-color: rgba(32, 186, 32, 0.723);
+    border-radius: 10px;
+    border: 1px solid rgba(32, 186, 32, 0.723); /* Ensure the border color matches */
+  }
+  
+  .exam-page button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #back-admin-pannel {
+    margin-top: 0%;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  

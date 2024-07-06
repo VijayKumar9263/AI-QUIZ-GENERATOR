@@ -1,0 +1,75 @@
+/* Main container styles */
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Input field styles */
+.signup-page input {
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Input field focus styles */
+.signup-page input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+    outline: none;
+}
+
+/* Button styles */
+.signup-page button {
+    margin: 20px 0;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Button hover styles */
+.signup-page button:hover {
+    background-color: #45a049;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button loading styles */
+.signup-page button:disabled {
+    background-color: #9E9E9E;
+    cursor: not-allowed;
+}
+
+/* Page title styles */
+.signup-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;    
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    font-size: large;
+} 
+
+a{
+    text-decoration: none;
+    color: #2f00ff;
+    font-size: large;
+    font-weight: bold;
+}
