@@ -1,4 +1,4 @@
-# Exam Management System
+# AI QUIZ GENERATOR
 
 This project is an exam management system with a homepage featuring three main links: signup for exam, login for exam, and admin login. The system allows admins to create and manage exams, while students can sign up, log in, take exams, and view their scores.
 
